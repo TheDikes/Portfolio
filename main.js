@@ -46,7 +46,7 @@ navbar.classList.remove('active');
 }
 
 //toggle content 
-let showContent = false;
+let showContent = true;
 
 function toggleContent(event) {
     event.preventDefault(); // Prevent default anchor link behavior
