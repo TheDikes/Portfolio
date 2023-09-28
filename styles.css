@@ -149,7 +149,7 @@ padding: 10rem 9% 2rem;
     width: 32.8rem;
 }
 
-.home-content .text-animate h3 {
+.home-content .text-animate h3, h5 {
   font-size: 3.2rem;
   font-weight: 700;
   color: transparent;
@@ -172,7 +172,7 @@ padding: 10rem 9% 2rem;
     border-right: 2px solid var(--main-color);
     z-index: -1;
     animation: homeCursorText 6s linear infinite;
-  animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 .home-content p {
@@ -381,7 +381,9 @@ span {
 }
 
 .p {
-    display: none;
+  display: none;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 
@@ -418,9 +420,9 @@ span {
     width: 15rem;
 }
 
-.btn-box.btns a::before {
+/* .btn-box.btns a::before {
     background: var(--second-bg-color);
-}
+} */
 
 .skills {
     min-height: auto;
