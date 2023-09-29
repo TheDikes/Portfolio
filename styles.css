@@ -12,7 +12,7 @@
 }
 
 :root {
-    --bg-color: #000;
+    --bg-color: #111111;
     /* --second-bg-color: #000; */
     --text-color: #b5b0b0;
     --main-color: hsl(176, 100%, 47%);
@@ -119,10 +119,10 @@ padding: 10rem 9% 2rem;
 }
 
 .img-display img {
-    border: .2rem solid var(--main-color);
-    border-radius: 50%;
+    border: .1rem solid var(--main-color);
+    border-radius: 5%;
     display: flex;
-     margin: 70px 0 50px 27%;
+    margin: 70px 0 50px 27%;
     width: 400px;
     height: 500px; 
 }
@@ -157,7 +157,7 @@ padding: 10rem 9% 2rem;
   background-image: linear-gradient(var(--main-color), var(--main-color));
   background-repeat: no-repeat;
   -webkit-background-clip: text;
-  background-position: -33rem 0;
+  background-position: --33rem 0;
   animation: homeBgText 6s linear infinite;
   animation-delay: 2s;
 }
@@ -761,7 +761,7 @@ h3 b {
     }
 
     .img-display img {
-        width: 160px;
+        width: 200px;
         height: 280px;
       }
 
@@ -822,6 +822,14 @@ h3 b {
     }
 }
 
+
+   @media (max-width: 675px) {
+    .img-display img {
+        width: 157px;
+        height: 280px;
+      }
+}
+
     @media (max-width: 540px) {
         html {
             font-size: 50%;
@@ -843,7 +851,7 @@ h3 b {
     }
 
     .img-display img {
-        width: 130px;
+        width: 141px;
         height: 230px;
       }
     
