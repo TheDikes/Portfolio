@@ -505,6 +505,7 @@ span {
 .contact {
   min-height: auto;
   padding-bottom: 7rem;
+  margin-top: -5rem;
 }
 
 .contact form {
@@ -864,6 +865,10 @@ h3 b {
     height: 280px;
   }
 
+  .reachme {
+    line-height: 2.5rem;
+  }
+
   /* .my-skillset {
     width: 240px;
     height: 272px;
@@ -879,6 +884,11 @@ h3 b {
   .img-display img {
     width: 136px;
     height: 230px;
+  }
+
+  .reachme {
+    display: grid;
+    line-height: 2rem;
   }
 
   /* .my-skillset {
@@ -922,6 +932,7 @@ h3 b {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin-top: -5rem;
   }
 
   .home-content h1 {
