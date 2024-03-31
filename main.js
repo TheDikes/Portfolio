@@ -55,7 +55,7 @@ function toggleContent(event) {
   showContent = !showContent;
   const contentDiv = document.querySelector(".p");
   const btn = document.querySelector("#btn");
-  if (showContent) {
+  if (!showContent) {
     contentDiv.style.display = "block";
     btn.innerText = "Read Less"; // Update button text to 'Read Less'
   } else {
