@@ -36,6 +36,7 @@ window.onscroll = () => {
       sec.classList.remove("show-animate");
     }
   });
+
   //sticky header
 
   let header = document.querySelector("header");
